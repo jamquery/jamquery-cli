@@ -24,3 +24,9 @@ Or... just download the `jamquery` file in repository root.
 Copy the `jamquery` executable to your path that you like. (e.g. /Users/your-name/bin)
 
 Make sure that those directories are properly listed in $PATH variable.
+
+```
+jamquery --help       # See help
+jamquery -t android   # Search links that have 'android' tag
+jamquery -d 2019      # Search links created in 2019
+```
