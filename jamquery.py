@@ -24,7 +24,7 @@ Options:
 from docopt import docopt, DocoptExit
 import requests
 
-VERSION = "0.0.1"
+VERSION = "0.1.0"
 URL = "http://jamquery.turastory.com/api"
 
 def search(keyword):
