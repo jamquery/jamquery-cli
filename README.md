@@ -5,6 +5,16 @@ Pretty unstable for now.
 
 The program is fully written in Python.
 
+## Installation
+
+Install from the releases.
+
+```
+$ curl -sSLO https://github.com/jamquery/jamquery-cli/releases/download/0.1.0/jamquery && chmod a+x jamquery
+```
+
+You can also download it from https://github.com/jamquery/jamquery-cli/releases
+
 
 ## Build
 
@@ -15,8 +25,6 @@ pyinstaller -F jamquery.py
 ```
 
 This will create executable `dist/jamquery` file in the project root.
-
-Or... just download the `jamquery` file in repository root.
 
 
 ## Use
